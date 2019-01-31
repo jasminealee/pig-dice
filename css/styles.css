@@ -1,0 +1,25 @@
+#arrow2{
+  display: none;
+}
+
+h2{
+  display: none;
+}
+#reset{
+  display: none;
+}
+span{
+  font-size: 30px;
+  font-family: bold;
+}
+body{
+  text-align: left;
+  font-size: 10px;
+  font-style: italic;
+  background-color: beige;
+}
+ #pig {
+  width: 500px;
+  height: 800px;
+  image-resolution: snap;
+ }

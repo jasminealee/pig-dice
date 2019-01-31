@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src = "js/jquery-3.3.1.js"></script>
+    <script src = "js/scripts.js"></script>
+    <title>Pig Dice</title>
+  </head>
+  <body>
+    <div class = "container">
+      <div class="well">
+
+
+      <h1>Pig Dice</h1>
+      <button class = "btn-primary" id = "roll">Roll</button>
+      <button class = "btn-success" id= "switch">Switch Users</button>
+      <button class = "btn-warning" id = "reset">Reset</button>
+
+
+      <p>Current Roll : <span id = "currentRoll"></span></p>
+      <div class = "row">
+        <div class = "col-md-3">
+          <div class = "well">
+            <p>User 1: <span id = "userOne"></span><span id ="arrow1"></span>
+          </div>
+        </div>
+        <div class = "col-md-3">
+          <div class = "well">
+            <p>User 2: <span id = "userTwo"></span><span id ="arrow2"></span>
+          </div>
+        </div>
+      </div>
+      <h2 id = "userOneWins"> User One wins!</p>
+      <h2 id = "userOneWins"> User Two wins!</p>
+      </div>
+    </div>
+    <img  id="pig" src="img/pig.jpg" alt="cute pig">
+
+  </body>
+</html>
