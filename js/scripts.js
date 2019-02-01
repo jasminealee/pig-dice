@@ -4,7 +4,7 @@ function UserList(users){
   this.currentTurn= 1
 };
 
-UserList.prototype.addUser = function(users){
+UserList.prototype.addUser = function(user ){
   user.id = this.assignID();
   this.users.push(user);
   this.currentUser = this.users[0]
@@ -25,7 +25,7 @@ UserList.prototype.changeUser = function(){
 
   }
   else{
-    this.currentUsers = this.users[1];
+    this.currentUser = this.users[1];
     $("#arrow1").hide();
     $("#arrow2").show();
   };
@@ -72,9 +72,9 @@ User.prototype.tallyUp = function(){
 
 /*     User Interface Logic     */
 var userList = new UserList();
-var user = new User("User1");
+var user = new User("User");
 var user2 = new User("User2");
-userList.addUser(user1);
+userList.addUser(user);
 userList.addUser(user2);
 
 function scoresReset(){

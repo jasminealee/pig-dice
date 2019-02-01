@@ -19,7 +19,8 @@ body{
   background-color: beige;
 }
  #pig {
-  width: 500px;
-  height: 800px;
+  width: 1000px;
+  height: 500px;
   image-resolution: snap;
+  padding-left: 400px;
  }
